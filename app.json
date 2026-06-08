@@ -1,0 +1,64 @@
+{
+  "expo": {
+    "name": "AI智采",
+    "owner": "labixiaoxin999s-organization",
+    "slug": "xianyu_app",
+    "extra": {
+      "eas": {
+        "projectId": "741d0deb-9238-4f65-a03f-a53d3dda0ca7"
+      }
+    },
+    "version": "1.0.2",
+    "locales": {
+      "zh-Hans": "./locales/zh-Hans.json"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.gaoda.xianyu",
+      "buildNumber": "23",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "CFBundleDevelopmentRegion": "zh-Hans",
+        "CFBundleLocalizations": [
+          "zh-Hans"
+        ],
+        "ITSAppUsesNonExemptEncryption": false,
+        "NSCameraUsageDescription": "用于拍摄包款参考图并进行 AI 识别。",
+        "NSPhotoLibraryUsageDescription": "用于选择包款参考图并进行 AI 识别。",
+        "LSApplicationQueriesSchemes": [
+          "fleamarket"
+        ]
+      }
+    },
+    "android": {
+      "package": "com.gaoda.xianyu",
+      "versionCode": 3,
+      "permissions": [
+        "CAMERA",
+        "READ_MEDIA_IMAGES",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ]
+  }
+}

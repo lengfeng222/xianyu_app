@@ -1,0 +1,36 @@
+# dependencies
+node_modules/
+
+# Expo and web build outputs
+.expo/
+dist/
+dist-ios-check-*/
+web-build/
+expo-env.d.ts
+
+# Native/generated build folders
+/ios
+/android
+.kotlin/
+
+# Local app archives and signing files
+*.apk
+*.aab
+*.ipa
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+
+# Logs and local build cache
+web.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.tsbuildinfo
+
+# OS/editor noise
+.DS_Store
+*.pem
